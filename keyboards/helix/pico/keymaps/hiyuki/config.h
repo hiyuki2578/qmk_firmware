@@ -23,6 +23,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define FORCE_NKRO
 #define MK_3_SPEED
 #define MK_MOMENTARY_ACCEL
+#define MK_W_INTERVAL_UNMOD 80
+#define MK_W_INTERVAL_1 240
+#define MK_W_INTERVAL_2 120
 
 // place overrides here
 
