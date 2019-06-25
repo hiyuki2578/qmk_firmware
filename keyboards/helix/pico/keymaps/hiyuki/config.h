@@ -20,6 +20,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #ifndef CONFIG_USER_H
 #define CONFIG_USER_H
+#define FORCE_NKRO
 
 // place overrides here
 
