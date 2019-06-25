@@ -114,19 +114,19 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
    * MSWH -> Mouse Wheel
    * MSBT -> Mouse Button
    * ,-----------------------------------------.             ,-----------------------------------------.
-   * |      | Reset|      |MouseU|      | Mac  |             | Win  |MSWH U|      |MouseU|      |      |
+   * |      | Reset|      |MouseU|      | Mac  |             | Win  |      |      |MouseU|      |      |
    * |------+------+------+------+------+------|             |------+------+------+------+------+------|
-   * |      |      |MouseL|MouseD|MouseR|      |             |      |MSWH D|MouseL|MouseD|MouseR|      |
+   * |      |MSWH U|MouseL|MouseD|MouseR|      |             |      |MSWH U|MouseL|MouseD|MouseR|      |
    * |------+------+------+------+------+------|             |------+------+------+------+------+------|
-   * |      |CK TOG|CK RST| CK UP|CK DWN|      |             |      |      |MSBT L|MSBT M|MSBT R|      |
+   * |      |MSWH D|MSBT L|MSBT M|MSBT R|      |             |      |MSWH D|MSBT L|MSBT M|MSBT R|      |
    * |------+------+------+------+------+------+-------------+------+------+------+------+------+------|
    * |      |      |      |      |      |      |      |      |      |      |      |      |      |      |
    * `-------------------------------------------------------------------------------------------------'
    */
   [_ADJUST] =  LAYOUT( \
-      _______, RESET,   _______, KC_MS_U, _______, AG_NORM,                   AG_SWAP, KC_WH_U, _______, KC_MS_U, _______, _______, \
-      _______, _______, KC_MS_L, KC_MS_D, KC_MS_R, _______,                   _______, KC_WH_D, KC_MS_L, KC_MS_D, KC_MS_R, _______, \
-      _______, CK_TOGG, CK_RST,  CK_UP,   CK_DOWN, _______,                   _______, _______, KC_BTN1, KC_BTN3, KC_BTN2, _______, \
+      _______, RESET,   _______, KC_MS_U, _______, AG_NORM,                   AG_SWAP, _______, _______, KC_MS_U, _______, _______, \
+      _______, KC_WH_U, KC_MS_L, KC_MS_D, KC_MS_R, _______,                   _______, KC_WH_U, KC_MS_L, KC_MS_D, KC_MS_R, _______, \
+      _______, KC_WH_D, KC_BTN1, KC_BTN3, KC_BTN2, _______,                   _______, KC_WH_D, KC_BTN1, KC_BTN3, KC_BTN2, _______, \
       _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______ \
       )
 };

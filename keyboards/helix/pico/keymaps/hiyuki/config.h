@@ -21,6 +21,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #ifndef CONFIG_USER_H
 #define CONFIG_USER_H
 #define FORCE_NKRO
+#define MK_3_SPEED
+#define MK_MOMENTARY_ACCEL
 
 // place overrides here
 
